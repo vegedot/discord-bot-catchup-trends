@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "articleId": "rss_Ars Technica_https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+    "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
+    "title": "OpenClaw gives users yet another reason to be freaked out about security",
+    "postedAt": "2026-04-05T09:14:41.246Z",
+    "discordThreadId": "1490278493941010444"
+  },
+  {
+    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3109434",
+    "url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/",
+    "title": "Peter Thiel’s big bet on solar-powered cow collars",
+    "postedAt": "2026-04-05T09:14:42.658Z",
+    "discordThreadId": "1490278499565568083"
+  },
+  {
+    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+    "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+    "postedAt": "2026-04-05T09:14:43.977Z",
+    "discordThreadId": "1490278505827536896"
+  },
+  {
+    "articleId": "rss_Zenn_https://zenn.dev/beef_and_rice/articles/cdb8b3f77f0704",
+    "url": "https://zenn.dev/beef_and_rice/articles/cdb8b3f77f0704",
+    "title": "DGX SparkでGemma 4 31Bをローカル動作させ、OpenClawから使う",
+    "postedAt": "2026-04-05T09:14:45.289Z",
+    "discordThreadId": "1490278511082995722"
+  },
+  {
+    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3109441",
+    "url": "https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/",
+    "title": "Embattled startup Delve has ‘parted ways’ with Y Combinator",
+    "postedAt": "2026-04-05T09:14:46.575Z",
+    "discordThreadId": "1490278516703363092"
+  }
+]
