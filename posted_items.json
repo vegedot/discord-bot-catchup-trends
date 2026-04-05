@@ -33,5 +33,40 @@
     "title": "Embattled startup Delve has ‘parted ways’ with Y Combinator",
     "postedAt": "2026-04-05T09:14:46.575Z",
     "discordThreadId": "1490278516703363092"
+  },
+  {
+    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+    "url": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+    "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+    "postedAt": "2026-04-05T09:19:32.099Z",
+    "discordThreadId": "1490279713929953350"
+  },
+  {
+    "articleId": "rss_Qiita_https://qiita.com/kotauchisunsun/items/ab78bb338500b4c71103?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "url": "https://qiita.com/kotauchisunsun/items/ab78bb338500b4c71103?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+    "title": "Claude Codeの首位陥落。CodexがシェアNo.1へ。 ～データで見る2026年3月のAI Codingの動向まとめ～",
+    "postedAt": "2026-04-05T09:19:33.261Z",
+    "discordThreadId": "1490279719394873585"
+  },
+  {
+    "articleId": "rss_はてブ IT_https://wirelesswire.jp/2026/04/93202/",
+    "url": "https://wirelesswire.jp/2026/04/93202/",
+    "title": "突如実用化した1ビットLLM Bonai-8B もう推論にGPUはほぼ不要になる。その先に何が起きるか",
+    "postedAt": "2026-04-05T09:19:34.538Z",
+    "discordThreadId": "1490279724490948700"
+  },
+  {
+    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3109429",
+    "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
+    "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+    "postedAt": "2026-04-05T09:19:35.750Z",
+    "discordThreadId": "1490279729377443901"
+  },
+  {
+    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
+    "url": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
+    "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
+    "postedAt": "2026-04-05T09:19:37.035Z",
+    "discordThreadId": "1490279734800814130"
   }
 ]
