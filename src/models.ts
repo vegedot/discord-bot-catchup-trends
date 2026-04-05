@@ -4,6 +4,7 @@ export interface Article {
   url: string;
   score: number;
   source: string;
+  category: string;
   publishedAt: Date;
   description: string;
 }
@@ -44,7 +45,7 @@ export interface Config {
     };
     rss: {
       enabled: boolean;
-      feeds: Array<{ url: string; name: string }>;
+      feeds: Array<{ url: string; name: string; category: string }>;
     };
   };
   claudeModel: string;

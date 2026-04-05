@@ -39,6 +39,7 @@ export async function fetchHuggingFace(trendingLimit: number, includeSpaces: boo
         url: `https://huggingface.co/${modelId}`,
         score: model.likes ?? 0,
         source: 'HuggingFace Models',
+        category: 'Tech/AI',
         publishedAt: new Date(model.lastModified ?? model.createdAt),
         description: `Trending model on HuggingFace. Downloads: ${model.downloads ?? 0}, Likes: ${model.likes ?? 0}`,
       });
@@ -64,6 +65,7 @@ export async function fetchHuggingFace(trendingLimit: number, includeSpaces: boo
           url: `https://huggingface.co/spaces/${space.id}`,
           score: space.likes ?? 0,
           source: 'HuggingFace Spaces',
+          category: 'Tech/AI',
           publishedAt: new Date(space.lastModified ?? space.createdAt),
           description: `Trending AI demo on HuggingFace Spaces. Likes: ${space.likes ?? 0}`,
         });

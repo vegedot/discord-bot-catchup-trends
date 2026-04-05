@@ -40,6 +40,7 @@ async function fetchSubreddit(subreddit: string): Promise<Article[]> {
       url: articleUrl,
       score: d.score,
       source: `Reddit r/${subreddit}`,
+      category: 'Tech/AI',
       publishedAt: new Date(d.created_utc * 1000),
       description: d.selftext.slice(0, 500),
     };

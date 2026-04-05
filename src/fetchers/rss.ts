@@ -6,7 +6,7 @@ const parser = new Parser({
   headers: { 'User-Agent': 'discord-trend-bot/1.0' },
 });
 
-async function fetchFeed(url: string, name: string): Promise<Article[]> {
+async function fetchFeed(url: string, name: string, category: string): Promise<Article[]> {
   const feed = await parser.parseURL(url);
   return feed.items.map((item, index) => ({
     id: `rss_${name}_${item.guid ?? item.link ?? String(index)}`,
@@ -15,16 +15,17 @@ async function fetchFeed(url: string, name: string): Promise<Article[]> {
     // RSS には score がないので掲載順位の逆数を擬似スコアとして使う
     score: Math.max(0, 100 - index * 5),
     source: name,
+    category,
     publishedAt: item.pubDate ? new Date(item.pubDate) : new Date(),
     description: item.contentSnippet ?? item.content ?? '',
   }));
 }
 
 export async function fetchRssFeeds(
-  feeds: Array<{ url: string; name: string }>
+  feeds: Array<{ url: string; name: string; category: string }>
 ): Promise<Article[]> {
   const results = await Promise.allSettled(
-    feeds.map((f) => fetchFeed(f.url, f.name))
+    feeds.map((f) => fetchFeed(f.url, f.name, f.category))
   );
 
   const articles: Article[] = [];

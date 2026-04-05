@@ -62,6 +62,7 @@ export async function fetchHackerNews(topStoriesLimit: number, minScore: number)
       url: item.url!,
       score: item.score ?? 0,
       source: 'Hacker News',
+      category: 'Tech/AI',
       publishedAt: new Date((item.time ?? 0) * 1000),
       description: item.text ?? '',
     }));

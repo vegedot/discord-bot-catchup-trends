@@ -65,21 +65,28 @@ sources:
       # テック・AI
       - url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
         name: "Ars Technica"
+        category: "Tech/AI"
       # ビジネス・スタートアップ
       - url: "https://techcrunch.com/feed/"
         name: "TechCrunch"
+        category: "Startup"
       - url: "https://www.producthunt.com/feed"
         name: "Product Hunt"
+        category: "Startup"
       # セキュリティ
       - url: "https://feeds.feedburner.com/TheHackersNews"
         name: "The Hacker News"
+        category: "Security"
       # 日本語
       - url: "https://zenn.dev/feed"
         name: "Zenn"
+        category: "日本語"
       - url: "https://qiita.com/popular-items/feed"
         name: "Qiita"
+        category: "日本語"
       - url: "https://b.hatena.ne.jp/hotentry/it.rss"
         name: "はてブ IT"
+        category: "日本語"
 
 # ============================================================
 # Claude AI 設定
