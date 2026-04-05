@@ -25,13 +25,9 @@ function loadYaml(): any {
 export function loadConfig(): Config {
   const y = loadYaml();
 
-  const anthropicApiKey = requireEnv('ANTHROPIC_API_KEY');
-  const discordBotToken = requireEnv('DISCORD_BOT_TOKEN');
-
-  if (y.discord_forum_channel_id === 'CHANNEL_ID_HERE') {
-    console.error('Error: discord_forum_channel_id is not configured in config.yaml.');
-    process.exit(1);
-  }
+  requireEnv('ANTHROPIC_API_KEY');
+  requireEnv('DISCORD_BOT_TOKEN');
+  const discordForumChannelId = requireEnv('DISCORD_FORUM_CHANNEL_ID');
 
   return {
     maxArticlesPerRun: y.max_articles_per_run ?? 5,
@@ -58,7 +54,7 @@ export function loadConfig(): Config {
     },
     claudeModel: y.claude_model ?? 'claude-haiku-4-5',
     summaryLanguage: y.summary_language ?? 'ja',
-    discordForumChannelId: y.discord_forum_channel_id,
+    discordForumChannelId,
     dedupWindowDays: y.dedup_window_days ?? 7,
   };
 }

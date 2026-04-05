@@ -96,9 +96,10 @@ summary_language: "ja"
 # ============================================================
 # Discord 設定
 # ============================================================
-# 投稿先のフォーラムチャンネル ID
-# 取得方法: Discord の開発者モードをオンにして、チャンネルを右クリック → ID をコピー
-discord_forum_channel_id: "CHANNEL_ID_HERE"
+# 投稿先のフォーラムチャンネル ID は環境変数 DISCORD_FORUM_CHANNEL_ID で設定してください。
+# Public リポジトリのため config.yaml には記載しません。
+# ローカル実行: .env ファイルに DISCORD_FORUM_CHANNEL_ID=xxx を追加
+# GitHub Actions: Secrets に DISCORD_FORUM_CHANNEL_ID を登録
 
 # ============================================================
 # 重複除去設定

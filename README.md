@@ -52,6 +52,7 @@ discord_forum_channel_id: "ここにコピーした ID を貼り付け"
 |---|---|
 | `ANTHROPIC_API_KEY` | [Anthropic Console](https://console.anthropic.com/) で取得した API キー |
 | `DISCORD_BOT_TOKEN` | 手順1でコピーした Bot トークン |
+| `DISCORD_FORUM_CHANNEL_ID` | 手順2でコピーしたフォーラムチャンネル ID |
 
 ### 5. 動作確認
 
