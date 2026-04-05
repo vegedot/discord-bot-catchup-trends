@@ -1,0 +1,27 @@
+{
+  "name": "discord-bot-catchup-trends",
+  "version": "1.0.0",
+  "description": "Periodically fetches trending AI/tech articles and posts them to a Discord forum channel",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "dry-run": "DRY_RUN=true tsx src/main.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.0",
+    "js-yaml": "^4.1.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.0.0",
+"tsx": "^4.19.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

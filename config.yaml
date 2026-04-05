@@ -1,0 +1,107 @@
+# ============================================================
+# Discord Trend Bot - 設定ファイル
+# ============================================================
+
+# 1回の実行で Discord に投稿する最大記事数
+max_articles_per_run: 5
+
+# Hacker News: この score 以上の記事のみ対象
+hn_min_score: 50
+
+# フィルタリングキーワード
+# 記事の title / description にこのワードが含まれるものだけを投稿対象にする
+# （大文字小文字は区別しない）
+topics:
+  - AI
+  - LLM
+  - GPT
+  - Claude
+  - Gemini
+  - machine learning
+  - deep learning
+  - neural network
+  - open source
+  - programming
+  - developer
+  - security
+  - startup
+  - cloud
+  - agent
+  - RAG
+  - fine-tuning
+  - スタートアップ
+  - セキュリティ
+  - 機械学習
+  - 生成AI
+
+# ============================================================
+# 情報ソース設定
+# ============================================================
+sources:
+  hackernews:
+    enabled: true
+    # トップストーリーのうち上位何件を取得するか
+    top_stories_limit: 100
+
+  reddit:
+    enabled: true
+    # 監視するサブレディット（認証不要）
+    subreddits:
+      - LocalLLaMA        # ローカル LLM・最新モデル情報（最速クラス）
+      - MachineLearning   # 研究・論文
+      - artificial        # 一般 AI ニュース
+      - singularity       # AGI・将来の AI
+
+  huggingface:
+    enabled: true
+    # トレンドモデルの取得件数
+    trending_limit: 20
+    # AI デモ（Spaces）も含める
+    include_spaces: true
+
+  rss:
+    enabled: true
+    feeds:
+      # テック・AI
+      - url: "https://feeds.arstechnica.com/arstechnica/technology-lab"
+        name: "Ars Technica"
+      # ビジネス・スタートアップ
+      - url: "https://techcrunch.com/feed/"
+        name: "TechCrunch"
+      - url: "https://www.producthunt.com/feed"
+        name: "Product Hunt"
+      # セキュリティ
+      - url: "https://feeds.feedburner.com/TheHackersNews"
+        name: "The Hacker News"
+      # 日本語
+      - url: "https://zenn.dev/feed"
+        name: "Zenn"
+      - url: "https://qiita.com/popular-items/feed"
+        name: "Qiita"
+      - url: "https://b.hatena.ne.jp/hotentry/it.rss"
+        name: "はてブ IT"
+
+# ============================================================
+# Claude AI 設定
+# ============================================================
+# 使用するモデル
+# claude-haiku-4-5    : 高速・低コスト（推奨）
+# claude-sonnet-4-6   : 高品質・やや高コスト
+claude_model: "claude-haiku-4-5"
+
+# 要約の言語
+# ja: 日本語  /  en: 英語
+summary_language: "ja"
+
+# ============================================================
+# Discord 設定
+# ============================================================
+# 投稿先のフォーラムチャンネル ID
+# 取得方法: Discord の開発者モードをオンにして、チャンネルを右クリック → ID をコピー
+discord_forum_channel_id: "CHANNEL_ID_HERE"
+
+# ============================================================
+# 重複除去設定
+# ============================================================
+# 過去何日以内に投稿済みの記事をスキップするか
+dedup_window_days: 7

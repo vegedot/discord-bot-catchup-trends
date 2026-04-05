@@ -1,0 +1,49 @@
+name: Post Trending Articles to Discord
+
+on:
+  schedule:
+    # 毎日 UTC 9:00（JST 18:00）に実行
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run（記事を収集・要約するが Discord には投稿しない）"
+        type: boolean
+        default: false
+
+jobs:
+  post-trends:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # posted_items.json をコミットするために必要
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run trend bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: npx tsx src/main.ts
+
+      - name: Commit updated state
+        if: success() && inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posted_items.json
+          git diff --staged --quiet || git commit -m "chore: update posted items state [skip ci]"
+          git push
