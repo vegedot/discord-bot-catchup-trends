@@ -1,72 +1,37 @@
 [
   {
-    "articleId": "rss_Ars Technica_https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
-    "url": "https://arstechnica.com/security/2026/04/heres-why-its-prudent-for-openclaw-users-to-assume-compromise/",
-    "title": "OpenClaw gives users yet another reason to be freaked out about security",
-    "postedAt": "2026-04-05T09:14:41.246Z",
-    "discordThreadId": "1490278493941010444"
+    "articleId": "rss_Ars Technica_https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+    "url": "https://arstechnica.com/security/2026/04/why-are-top-university-websites-serving-porn-it-comes-down-to-shoddy-housekeeping/",
+    "title": "Why are top university websites serving porn? It comes down to shoddy housekeeping.",
+    "postedAt": "2026-04-26T03:34:39.952Z",
+    "discordThreadId": "1497803070141108224"
   },
   {
-    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3109434",
-    "url": "https://techcrunch.com/2026/04/04/unpacking-peter-thiels-big-bet-on-solar-powered-cow-collars/",
-    "title": "Peter Thiel’s big bet on solar-powered cow collars",
-    "postedAt": "2026-04-05T09:14:42.658Z",
-    "discordThreadId": "1490278499565568083"
+    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3116468",
+    "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+    "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+    "postedAt": "2026-04-26T03:34:41.154Z",
+    "discordThreadId": "1497803075354759362"
   },
   {
-    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-    "url": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
-    "postedAt": "2026-04-05T09:14:43.977Z",
-    "discordThreadId": "1490278505827536896"
+    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+    "url": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+    "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
+    "postedAt": "2026-04-26T03:34:42.551Z",
+    "discordThreadId": "1497803080463290509"
   },
   {
-    "articleId": "rss_Zenn_https://zenn.dev/beef_and_rice/articles/cdb8b3f77f0704",
-    "url": "https://zenn.dev/beef_and_rice/articles/cdb8b3f77f0704",
-    "title": "DGX SparkでGemma 4 31Bをローカル動作させ、OpenClawから使う",
-    "postedAt": "2026-04-05T09:14:45.289Z",
-    "discordThreadId": "1490278511082995722"
+    "articleId": "rss_Zenn_https://zenn.dev/microsoft/articles/agent-package-manager-handson",
+    "url": "https://zenn.dev/microsoft/articles/agent-package-manager-handson",
+    "title": "ハーネスエンジニアリングを楽にする Microsoft 製の新ツール「APM」ハンズオン",
+    "postedAt": "2026-04-26T03:34:43.783Z",
+    "discordThreadId": "1497803086360481853"
   },
   {
-    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3109441",
-    "url": "https://techcrunch.com/2026/04/04/embattled-startup-delve-has-parted-ways-with-y-combinator/",
-    "title": "Embattled startup Delve has ‘parted ways’ with Y Combinator",
-    "postedAt": "2026-04-05T09:14:46.575Z",
-    "discordThreadId": "1490278516703363092"
-  },
-  {
-    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
-    "url": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
-    "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
-    "postedAt": "2026-04-05T09:19:32.099Z",
-    "discordThreadId": "1490279713929953350"
-  },
-  {
-    "articleId": "rss_Qiita_https://qiita.com/kotauchisunsun/items/ab78bb338500b4c71103?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "url": "https://qiita.com/kotauchisunsun/items/ab78bb338500b4c71103?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-    "title": "Claude Codeの首位陥落。CodexがシェアNo.1へ。 ～データで見る2026年3月のAI Codingの動向まとめ～",
-    "postedAt": "2026-04-05T09:19:33.261Z",
-    "discordThreadId": "1490279719394873585"
-  },
-  {
-    "articleId": "rss_はてブ IT_https://wirelesswire.jp/2026/04/93202/",
-    "url": "https://wirelesswire.jp/2026/04/93202/",
-    "title": "突如実用化した1ビットLLM Bonai-8B もう推論にGPUはほぼ不要になる。その先に何が起きるか",
-    "postedAt": "2026-04-05T09:19:34.538Z",
-    "discordThreadId": "1490279724490948700"
-  },
-  {
-    "articleId": "rss_TechCrunch_https://techcrunch.com/?p=3109429",
-    "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
-    "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
-    "postedAt": "2026-04-05T09:19:35.750Z",
-    "discordThreadId": "1490279729377443901"
-  },
-  {
-    "articleId": "rss_The Hacker News_https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-    "url": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-    "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
-    "postedAt": "2026-04-05T09:19:37.035Z",
-    "discordThreadId": "1490279734800814130"
+    "articleId": "rss_はてブ IT_https://dev.classmethod.jp/articles/gemini-gem-googledrive-chatbot/",
+    "url": "https://dev.classmethod.jp/articles/gemini-gem-googledrive-chatbot/",
+    "title": "Gemini の Gem で 社内 GoogleDrive のチャットボットを作成 | DevelopersIO",
+    "postedAt": "2026-04-26T03:34:44.960Z",
+    "discordThreadId": "1497803091607556186"
   }
 ]
